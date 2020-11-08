@@ -1,0 +1,427 @@
+#### HashMap的底层运作和源码解析
+
+哈希的定义：
+
+* 任意长度的输入通过散列算法变换成固定长度的输出，该输出就是散列值（又称哈希值）
+####  哈希的作用：
+哈希的作用在数据结构和密码学中，发挥的作用不尽相同。
+今天我们主要去了解数据结构中的应用。
+
+
+
+
+
+## Hash表----HashMap
+
+Hash表基于数组：-----最大缺点
+
+而JAVA中的HashMap和HashTable就是我们常说的Hash表在计算机的表现形式。
+
+###  生成HashMap的流程：
+
+**一**：我们先**初始化HashMap**，此时如果你不加参数时，调用无参方法。
+
+- PS:加参数自然会去初始化容量和加载因子两项。
+
+```java
+static final float DEFAULT_LOAD_FACTOR = 0.75f;
+public HashMap() {
+        this.loadFactor = DEFAULT_LOAD_FACTOR; // all other fields defaulted
+    }
+```
+
+- 源码看出此时只生成一个HashMap对象，**没有初始化容量**，**只设定了它得默认加载因子为0.75**。
+
+**二**：初始化后我们存值需要传**key，和value值**来传参，运用**put方法**，put调用**putval方法**
+
+```java
+public V put(K key, V value) {
+     // 生成key得hash值
+     return putVal(hash(key), key, value, false, true); 
+}
+```
+
+```java
+static final int hash(Object key) {
+     int h;
+    // 使用扰动函数，进行了一次扰动，将高位与低位进行异或操作
+    // 以此来减少映射重复的概率
+     return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+}
+```
+
+```java
+public int hashCode() {
+        int h = hash;
+ 		//hash default value : 0 
+        if (h == 0 && value.length > 0) {
+			 //value : char storage
+            char val[] = value;
+			// 字符串得hash值生成算法得到固定长度值
+            for (int i = 0; i < value.length; i++) {
+                h = 31 * h + val[i];
+            }
+            hash = h;
+        }
+        return h;
+    }
+/*
+常见的Hash算法：
+- 直接定址法
+- 平方取中法
+- 数字分析法
+- 除留余数法
+*/
+```
+
+- 此时我们会去生成**key的hash值**（hash算法多种多样）
+- 是利用**key值**来进行**调用hashcode方法**里面使用了哈希函数来返回**int型的hash值**（-2147483648到2147483648）
+- 并将**其转为二进制让高位向右移16位**和**自身**进行**异或操作**来完成**高低位扰动**，最后返回一个制作好得hash值。
+- **PS：**（因为向右移了16位，本质是让自身得高位与低位进行异或，这样当换一个key值时，只要高位或者低位产生一点点变动，都能影响异或结果)。
+
+**三**：此时我们会去进入**putval方法进行传值**，因为此时没有容量我们会去动态的生成一个**初始容量为16**的Node数组来**存key和value**，到此**HashMap存值已经结束**。
+
+- 若结点数量超过**阈值**（负载因子*容量）我们就会**扩容**。
+- 当某一处hash桶的**链表结点超过8个**，我们就会转为**红黑树存储**。
+
+- 可以看出现在1.8版本基本都用**Node数组**来替代以前的**Entry数组**
+
+```java
+static final int TREEIFY_THRESHOLD = 8;
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
+                   boolean evict) {
+        Node<K,V>[] tab; Node<K,V> p; int n, i;
+    	// 因为我们没有初始化容量，我们会去判断Hashmap是否插入过元素
+    	// 以此来通过resize()扩容函数来进行初始化
+        if ((tab = table) == null || (n = tab.length) == 0)
+            n = (tab = resize()).length;
+    	// 经典与操作，将hash值映射到我初始化0-15的容量上
+    	// 这里一伙儿细讲
+        if ((p = tab[i = (n - 1) & hash]) == null)
+            // 存进Node数组
+            tab[i] = newNode(hash, key, value, null);
+        else {
+            Node<K,V> e; K k;
+            // 这里使用链地址法来解决Hash碰撞问题
+            // 当hash值相同时，我们会将其存为链表形式或者红黑树形式
+            if (p.hash == hash &&
+                ((k = p.key) == key || (key != null && key.equals(k))))
+                e = p;
+            // 判断当前存的结点是否已经变为树结点类型
+            else if (p instanceof TreeNode)
+                e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
+            else {
+                // 存链表里
+                for (int binCount = 0; ; ++binCount) {
+                    if ((e = p.next) == null) {
+                        p.next = newNode(hash, key, value, null);
+                        // 这里又是经典操作
+                        // 链表长度超过8就将链表转为红黑树
+                        if (binCount >= TREEIFY_THRESHOLD - 1) 
+                            treeifyBin(tab, hash);
+                        break;
+                    }
+                    if (e.hash == hash &&
+                        ((k = e.key) == key || (key != null && key.equals(k))))
+                        break;
+                    p = e;
+                }
+            }
+            if (e != null) { // existing mapping for key
+                V oldValue = e.value;
+                if (!onlyIfAbsent || oldValue == null)
+                    e.value = value;
+                afterNodeAccess(e);
+                return oldValue;
+            }
+        }
+        ++modCount;
+       	// 经典操作，容量大于阈值（负载因子*容量）时我们将要扩容
+        if (++size > threshold)
+            resize();
+        afterNodeInsertion(evict);
+        return null;
+    }
+```
+
+
+
+------
+
+
+
+
+
+```java
+JDK1.8源码
+// 插入是会把key值进行转为hash值
+public V put(K key, V value) {
+        return putVal(hash(key), key, value, false, true);
+    }
+
+// 获取也会将hash值传入
+public V get(Object key) {
+        Node<K,V> e;
+        return (e = getNode(hash(key), key)) == null ? null : e.value;
+    }
+
+// 返回被扰动过得hash值
+static final int hash(Object key) {
+        int h;
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+    }
+```
+
+------
+
+##### 这里看完后会产生几个疑问：
+
+1. 为什么要用**扰动函数**？
+2. 返回hash值之后想存的值**怎么确定在数组得存储位置**？
+3. 为什么是**数组+链表**，之后还要**加红黑树**？
+4. 怎么**扩容**？扩容后原先结点是否要**rehash**？
+5. **负载因子**为什么**是0.75**？
+6. **默认数组容量**为什么**是16**？
+7. 为什么**链表长度**大于8才转**红黑树**？
+8. 如何减少**哈希碰撞**？
+9. 为何HashMap**线程不安全**？
+
+- 如果你也有这些疑问，请看我接下来的解答：
+
+------
+
+#### 一：为什么要用扰动函数？
+
+扰动函数的目的是为了让Hash值这个巨长的值去**映射**到固定数组0-15长度时，变得更加不规律，来降低数组里的Hash值映射后出现碰撞的概率。
+
+```java
+(h = key.hashCode()) ^ (h >>> 16) // 具体代码
+```
+
+这里的hash二进制向右移动了16位将低位信息抹除了只留下了高位信息
+
+1111 1111 1111 1111 0101 1101   —>  0000 0000 0000 0000 1111 1111
+
+并且让两者进行进行异或操作，也就是让它自己**高位与低位进行运算**，这样之后如果**出现和它相似的hash值**，只要这个相似值有一点点变化，最后异或后的结果都会有所不同。从而**降低之后映射完发生碰撞的概率**。
+
+1.7版**扰动了4次**，因为1.8版本**加入了红黑树**，并且**本身后3次进行扰动**他们的边际效果不高，统计学上只产生一点的效能提高，加上做异或操作本身就是占用性能的，所以1.8版本改进之后**只扰动了一次**，在**红黑树的加持**下，效率几乎没有下降。
+
+#### 二：返回hash值之后想存的值**怎么确定在数组得存储位置**？
+
+```java
+if ((p = tab[i = (n - 1) & hash]) == null)
+            // 存进Node数组
+            tab[i] = newNode(hash, key, value, null);
+```
+
+直接看**源码**，存在数组下标用了**与**操作，**HashMap容量-1**与**hash值**的与将其直接**映射到数组的下标**处（这里也是为什么**HashMap的容量是2的整数次幂**的原因）
+
+**原理：**
+
+当HashMap为**2的整数次幂**时，并**将它减一**后
+
+**16二进制**：0001 0000    ——>**15二进制**：  0000 1111 
+
+一定会变成**全1的二进制**，这样与hash值与操作时，其结果全由**hash值得二进制后4位**来决定**存储位置**（一定为0-15）。
+
+也就是为什么**需要扰动函数得原因之一**-------让二进制得后4位得**随机性**更大
+
+#### 三：为什么是**数组+链表**，之后还要**加红黑树**？
+
+为了解决**Hash值类似**最后映射到**相同数组下标**得hash桶里，我们解决Hash冲突得方法有多种，下面介绍两种：
+
+- 开放定址法：1.平方探查，2.线性探查，3.伪随机序列，4.双Hash函数
+
+- 链地址法：数组加数组对应下标后延长链表
+
+  **显然HashMap用得链地址法**
+
+  同时这里的**红黑树**是对链表进行**优化**的方式，当出现**hash全部撞到一起**时，原本的**O（1）**查找会退化成**O（n）**,我们是为了去优化O（n）而引入的红黑树结构，将其优化成**O(logn)**查找，具体红黑树的介绍另开一篇。
+
+#### 四：怎么**扩容**？扩容后原先结点是否要**rehash**？
+
+直接上源码+加上自己的注解
+
+```java
+final Node<K,V>[] resize() {
+        Node<K,V>[] oldTab = table;
+        int oldCap = (oldTab == null) ? 0 : oldTab.length;
+        int oldThr = threshold;
+        int newCap, newThr = 0;
+        // 显然刚开始初始化不走这里
+        if (oldCap > 0) {
+            if (oldCap >= MAXIMUM_CAPACITY) {
+                threshold = Integer.MAX_VALUE;
+                return oldTab;
+            }
+            // 不是初始化就扩容两倍
+            else if ((newCap = oldCap << 1) < MAXIMUM_CAPACITY &&
+                     oldCap >= DEFAULT_INITIAL_CAPACITY)
+                newThr = oldThr << 1; // double threshold
+        }
+        else if (oldThr > 0) // initial capacity was placed in threshold
+            newCap = oldThr;
+        else {               // zero initial threshold signifies using defaults
+            // 初始化直接跳到这里
+            newCap = DEFAULT_INITIAL_CAPACITY;
+            newThr = (int)(DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY);
+        }
+        if (newThr == 0) {
+            float ft = (float)newCap * loadFactor;
+            newThr = (newCap < MAXIMUM_CAPACITY && ft < (float)MAXIMUM_CAPACITY ?
+                      (int)ft : Integer.MAX_VALUE);
+        }
+    	// 阈值 = DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY
+        threshold = newThr;
+        @SuppressWarnings({"rawtypes","unchecked"})
+    		// 这里初始化容量 16
+            Node<K,V>[] newTab = (Node<K,V>[])new Node[newCap];
+        table = newTab;
+        if (oldTab != null) {
+            // 初始化时直接跳走，因为oldcap为0
+            // 真正的当达到阈值时，进行扩容的操作
+            for (int j = 0; j < oldCap; ++j) {
+                Node<K,V> e;
+                // 将当前不为空的链表传给e
+                if ((e = oldTab[j]) != null) {
+                    oldTab[j] = null;
+                    // 如果就一个值时对新容量的大小进行rehash
+                    if (e.next == null)
+                        newTab[e.hash & (newCap - 1)] = e;
+                    else if (e instanceof TreeNode)
+                        // 对树结点链表也进行拆分
+                        ((TreeNode<K,V>)e).split(this, newTab, j, oldCap);
+                   
+                    // 利用高位头尾指针和低位头尾指针进行优化
+                    else { // preserve order:顺序不变
+                        Node<K,V> loHead = null, loTail = null;
+                        Node<K,V> hiHead = null, hiTail = null;
+                        Node<K,V> next;
+                        do {
+                            // 遍历数组链表
+                            next = e.next;
+                            // 这里hash值和原先的容量进行取 与
+                            // 很骚的是这里结果不是为1就是为0
+                            if ((e.hash & oldCap) == 0) {
+                                if (loTail == null)
+                                    // 链表头部给低位头部
+                                    loHead = e;
+                                else
+                                    // 低位尾指针不断往下走
+                                    loTail.next = e;
+                                loTail = e;
+                            }
+                            // 将高位尾结点确定
+                            else {
+                                if (hiTail == null)
+                                    hiHead = e;
+                                else
+                                    hiTail.next = e;
+                                hiTail = e;
+                            }
+                            // 遍历链表
+                        } while ((e = next) != null);
+                        if (loTail != null) {
+                            loTail.next = null;
+                            // 最后低位存在新扩容的原来位置
+                            newTab[j] = loHead;
+                        }
+                        if (hiTail != null) {
+                            hiTail.next = null;
+                            // 因为是扩容2倍
+                            // 高位存在扩容后的第二倍的相同位置
+                            newTab[j + oldCap] = hiHead;
+                        }
+                    }
+                }
+            }
+        }
+        return newTab;
+    }
+```
+
+
+
+#### 五：**负载因子**为什么**是0.75**？
+
+这里其实源码有解释，大致意思就是
+
+- 当**负载因子小**时，我们数组容量还很大，就会**被迫提前**进行**扩容**这个费时又费空间的操作。
+- 而**负载因子大**时，我们**空闲**的数组容量不够了，就会发生很多次的**hash碰撞**，造成查找上的时间浪费。
+- 而**0.75**是我们综合**时间复杂度和空间复杂度**的权衡，最终经过多次测试选定的值。
+
+
+
+#### 六：**默认数组容量**为什么**是16**？
+
+其实这个问题主要问的是为什么是2的整数次幂，其次问的为什么是16，
+
+- **2^n**是因为之后我们**需要使用数组容量**在**插入元素**和**扩容**时都需要与key的**hash值**进行**与**操作，只有当2^n长度时，它的长度再减一的二进制形式全为1，
+- **16二进制**：0001 0000    ——>**15二进制**：  0000 1111
+- 当与**全为1的二进制**进行**与**时，对于存储数组在哪个下标的位置的控制权才能**全权交给hash值**得二进制来控制，并且刚好**将hash值映射**到**数组下标范围**，没有超出，很骚的操作。
+- 其次第二问题，为什么是16，不是8，32，**原因**也很简单：**太小了就有可能频繁发生扩容，影响效率。太大了又浪费空间，不划算**。
+
+#### 七：为什么**链表长度**大于8才转**红黑树**？
+
+JDK1.7版本里仅仅只是**数组加链表**并**没有红黑树**，1.8才加，所以源码因此也膨胀了一倍（里面自己实现了一个**treemap**），当hashmap产生了链表形态。说明产生了**hash碰撞**，这个本身就是一件不好的现象，那为什么不提前转红黑呢？虽然红黑树**查找效率**相比链表提升到了**O（logn）**，但是建造红黑和插入元素后维持红黑的形态本身就太麻烦了，**TreeNodes占用空间**是**普通Nodes**的两倍，所以只有当**bin包含足够多的节点**时才会转成**TreeNodes**
+
+所以得出结论红黑树本身就是双刃剑，虽然查找效率高，但是建造和维护浪费的性能也很大。
+
+同时源码提到，hashcode受随机分布的影响，所以存在数组的下标也是收概率分布影响，（泊松分布），如果一个好的hash算法，是会将随机性，降到很低，所以形成一个长链表本身也是一个概率极低的事件。
+
+既然概率极低，一旦发生了说明此事件的严重性，甚至说这是人为攻击，后续碰撞的概率会很大，那就必须要运用红黑树来进行优化了，不然可能后续会造成更严重的后果。
+
+```java
+Ideally, under random hashCodes, the frequency of
+* nodes in bins follows a Poisson distribution
+* (http://en.wikipedia.org/wiki/Poisson_distribution) with a
+* parameter of about 0.5 on average for the default resizing
+* threshold of 0.75, although with a large variance because of
+* resizing granularity. Ignoring variance, the expected
+* occurrences of list size k are (exp(-0.5) * pow(0.5, k) /
+* factorial(k)). The first values are:
+*
+* 0:    0.60653066
+* 1:    0.30326533
+* 2:    0.07581633
+* 3:    0.01263606
+* 4:    0.00157952
+* 5:    0.00015795
+* 6:    0.00001316
+* 7:    0.00000094
+* 8:    0.00000006
+* more: less than 1 in ten million
+```
+
+搬一波源码解释，因为**泊松概率到达结点8时概率不及百万分之一**，对此既然产生了这种情况，机器就会去判断这次事件**比较严重**，需要**红黑树优化**。
+
+当链表结点**后续小于8个**时，又会**回成链表**。
+
+所以本身用到红黑树的情况几乎很少，大概率是受到了黑客攻击。
+
+#### 九：为何HashMap**线程不安全**？
+
+1.7版本的不安全不想说了，说白了就是扩容的时候转移链表造成了链表指针的循环死锁，数据顺序改变。
+
+我们现在用的是1.8版本，其高低位指针本身就优化了这个，但任然还是不安全的，是因为put操作中的代码：
+
+```java
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
+                   boolean evict) {
+        Node<K,V>[] tab; Node<K,V> p; int n, i;
+        if ((tab = table) == null || (n = tab.length) == 0)
+            n = (tab = resize()).length;
+        if ((p = tab[i = (n - 1) & hash]) == null)
+            // 当这里假设有两个线程A,B，他们各有一个hash值不相同，
+            // 但是却进行与操作之后到达了同一个数组下标，
+            // 此时线程A阻塞，让线程B执行，线程B将值传入后，
+            // 线程B又阻塞，线程A也在这个数组下标存值，
+            // 最后造成数据覆盖，不安全
+            tab[i] = newNode(hash, key, value, null);
+        else {
+            Node<K,V> e; K k;
+            if (p.hash == hash &&
+                ((k = p.key) == key || (key != null && key.equals(k))))
+                e = p;
+```
+

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fdb9bf2-f91e-42fd-93c4-44f3e2ed714a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/MyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hdfs/src/main/java/com/wyw/hdfs/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hdfs/src/main/java/com/wyw/hdfs/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserInfos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyMapInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyMapInner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyReducerJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyReducerJoin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrderMapperJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerReducerJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/utiils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/src/main/java/com/wyw/myfun/MyFunc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/myfundemo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/src/main/java/com/wyw/MyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/HbaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/MyHbase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/Userinfos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/NicedaysAdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/bo/WebLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/component/BindingResultAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/component/WebLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/GlobalCorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/OssConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/validator/FlagValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/validator/FlagValidatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/test/java/com/mujio/admin/NicedaysAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/CommonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/CommonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/IErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/ResultCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/ApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/test/java/com/mujio/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/NicedaysDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/RestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/validator/FlagValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/validator/FlagValidatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/resources/appplication.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/java/com/mujio/mbg/CommentGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/java/com/mujio/mbg/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/PortalApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/CancelOrderReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/CancelOrderSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/OrderTimeOutCancelTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/GlobalCorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/JacksonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/SpringTaskConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/domain/QueueEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/test/java/com/mujio/portal/PortalApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/NicedaysSearchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/org/springframework/boot/context/properties/annotations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/test/java/com/mujio/search/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/annotation/CacheException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/aspect/RedisCacheAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicAccessDecisionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityMetadataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/RestAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/RestfulAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/IgnoreUrlsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/service/impl/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/util/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/util/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/MyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/sql/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4896">
+              <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/MuDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/MyDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/DemoApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="532" />
+    <option name="y" value="46" />
+    <option name="width" value="657" />
+    <option name="height" value="648" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="corndemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyw.corndemo.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fdb9bf2-f91e-42fd-93c4-44f3e2ed714a" name="Default Changelist" comment="" />
+      <created>1592368103144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592368103144</updated>
+      <workItem from="1592368104592" duration="2966000" />
+      <workItem from="1592529279864" duration="5514000" />
+      <workItem from="1593687368044" duration="615000" />
+      <workItem from="1593740909790" duration="1221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10316000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2934519" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.40554592" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Word Book" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/MyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/corndemo/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

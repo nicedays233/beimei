@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ec91bae-f277-4171-9e6f-56b43a4b7b0c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="8b3a3c15-5f47-4466-b007-93b19803dbcf" />
+  <component name="ProjectId" id="1gX6YOPVHJalTXC5CW7QFG0swoe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\algorithm\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.leetcode855">
+    <configuration name="Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode855" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode855.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="searchWord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searchWord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.leetcode855" />
+        <item itemvalue="Python.searchWord" />
+        <item itemvalue="Python.Fibonacci" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ec91bae-f277-4171-9e6f-56b43a4b7b0c" name="Default Changelist" comment="" />
+      <created>1598248636416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598248636416</updated>
+      <workItem from="1598248661285" duration="26252000" />
+      <workItem from="1598801752408" duration="8000" />
+      <workItem from="1599405917131" duration="676000" />
+      <workItem from="1601967812861" duration="15166000" />
+      <workItem from="1604205684241" duration="4232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="493" y="197" key="FileChooserDialogImpl" timestamp="1604206607693">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1598263824406" />
+    <state x="493" y="197" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1604206607693" />
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1601982943916">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="69" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598323391396" />
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601982943916" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1601982943916">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="69" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598323391395" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601982943916" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1601982943916">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="69" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598323391395" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601982943916" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1601982943916">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="69" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598323391396" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601982943916" />
+    <state width="1237" height="223" key="GridCell.Tab.1.bottom" timestamp="1601982945697">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="286" key="GridCell.Tab.1.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598260273941" />
+    <state width="1237" height="223" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601982945697" />
+    <state width="1237" height="223" key="GridCell.Tab.1.center" timestamp="1601982945696">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="286" key="GridCell.Tab.1.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598260273941" />
+    <state width="1237" height="223" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1601982945696" />
+    <state width="1237" height="223" key="GridCell.Tab.1.left" timestamp="1601982945696">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="286" key="GridCell.Tab.1.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598260273941" />
+    <state width="1237" height="223" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1601982945696" />
+    <state width="1237" height="223" key="GridCell.Tab.1.right" timestamp="1601982945696">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="286" key="GridCell.Tab.1.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598260273941" />
+    <state width="1237" height="223" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1601982945696" />
+    <state x="-1778" y="3" key="SettingsEditor" timestamp="1598249264501">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1778" y="3" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598249264501" />
+    <state x="303" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1604205685266">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1604205685266" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode855.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1598252583231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$searchWord.coverage" NAME="searchWord Coverage Results" MODIFIED="1598262123519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$leetcode855.coverage" NAME="leetcode855 Coverage Results" MODIFIED="1601982943782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

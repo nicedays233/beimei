@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8779dcc1-c279-4ef5-928b-99f745d41865" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../corndemo/src/main/java/com/wyw/corndemo/demo/MyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ORCFileOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ParquetOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/SequenceFileOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/MyReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserInfos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/UserReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyMapInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyMapInner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyReducerJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/inner/MyReducerJoin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrderMapperJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/mappjoin/CustomerOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/reducejoin/CustomerReducerJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapreducedemo/src/main/java/com/wyw/utiils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo/src/main/java/com/wyw/myfun/MyFunc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/myfundemo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myfundemo2/src/main/java/com/wyw/MyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/HBaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/HBaseHomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/HbaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/MyHbase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myhbasedemo/src/main/java/com/wyw/Userinfos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/NicedaysAdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/bo/WebLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/component/BindingResultAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/component/WebLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/GlobalCorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/OssConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/validator/FlagValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/java/com/mujio/admin/validator/FlagValidatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-admin/src/test/java/com/mujio/admin/NicedaysAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/CommonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/CommonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/IErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/api/ResultCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/ApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/java/com/mujio/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-common/src/test/java/com/mujio/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/NicedaysDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/RestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/validator/FlagValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/java/com/mujio/demo/validator/FlagValidatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/resources/appplication.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-demo/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/java/com/mujio/mbg/CommentGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/java/com/mujio/mbg/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-mybatisGenerator/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/PortalApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/CancelOrderReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/CancelOrderSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/component/OrderTimeOutCancelTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/GlobalCorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/JacksonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/SpringTaskConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/domain/QueueEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/java/com/mujio/portal/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-portal/src/test/java/com/mujio/portal/PortalApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/NicedaysSearchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/java/com/mujio/search/config/org/springframework/boot/context/properties/annotations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-search/src/test/java/com/mujio/search/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/annotation/CacheException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/aspect/RedisCacheAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicAccessDecisionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityMetadataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/DynamicSecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/RestAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/component/RestfulAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/IgnoreUrlsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/service/impl/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/util/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicedays-security/src/main/java/com/mujio/security/util/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/IterableMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2581">
+              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyReadAndWrite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1885">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/SequenceFileOps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ParquetOps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1972">
+              <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ORCFileOps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1189">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hdfs.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyReadAndWrite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ParquetOps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/SequenceFileOps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ORCFileOps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/../mapreducedemo/mapreducedemo.iml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/qaplug_profiles.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1931" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+              <item name="dataModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+              <item name="dataModel" type="462c0819:PsiDirectoryNode" />
+              <item name="ORCFileOps" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyw" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20833333" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitlocalRepositiory\hdfs\src\main\java\com\wyw\dataModel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ParquetOps">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyw.hdfs.MyClient" />
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyw.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyReadAndWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyw.hdfs.MyReadAndWrite" />
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyw.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyw.hdfs.MyService" />
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyw.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParquetOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyw.dataModel.ParquetOps" />
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyw.dataModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ParquetOps" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyService" />
+        <item itemvalue="Application.MyReadAndWrite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8779dcc1-c279-4ef5-928b-99f745d41865" name="Default Changelist" comment="" />
+      <created>1591145644165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591145644165</updated>
+      <workItem from="1591145645529" duration="24318000" />
+      <workItem from="1591258342856" duration="6514000" />
+      <workItem from="1591454552297" duration="1347000" />
+      <workItem from="1591494517036" duration="2108000" />
+      <workItem from="1593454264718" duration="1739000" />
+      <workItem from="1593500278491" duration="8000" />
+      <workItem from="1593502278949" duration="3233000" />
+      <workItem from="1593562819458" duration="1228000" />
+      <workItem from="1593590959889" duration="562000" />
+      <workItem from="1595148630691" duration="2363000" />
+      <workItem from="1595151887060" duration="612000" />
+      <workItem from="1595204537438" duration="599000" />
+      <workItem from="1595465554975" duration="8880000" />
+      <workItem from="1595512206231" duration="598000" />
+      <workItem from="1597280990026" duration="934000" />
+      <workItem from="1597977142808" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55656000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1927" y="-7" width="1295" height="735" extended-state="7" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.4830097" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="7" />
+      <window_info id="Job Explorer" order="8" />
+      <window_info id="Alibaba Cloud Explorer" order="9" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.33448875" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32928944" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928944" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.3778163" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.19930676" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32928944" />
+      <window_info anchor="bottom" id="Console" order="15" />
+      <window_info anchor="bottom" id="Analysis" order="16" />
+      <window_info anchor="bottom" id="Sequence" order="17" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="18" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Word Book" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="leetcode" order="10" side_tool="true" />
+      <window_info anchor="right" id="Alibaba ROS Templates" order="11" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="12" />
+      <window_info anchor="right" id="Alibaba Log Console" order="13" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0-sources.jar!/org/apache/hadoop/fs/FSDataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/io/OutputStreamWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/net/SocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+          <folding>
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8827#8828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="900" column="23" selection-start-line="900" selection-start-column="23" selection-end-line="900" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-net/commons-net/3.1/commons-net-3.1.jar!/org/apache/commons/net/io/SocketInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/org/apache/commons/collections/map/Flat3Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25416">
+          <caret line="783" column="28" selection-start-line="783" selection-start-column="28" selection-end-line="783" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0-sources.jar!/org/apache/hadoop/io/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2378">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13891">
+          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-net/commons-net/3.1/commons-net-3.1-sources.jar!/org/apache/commons/net/io/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/map/Flat3Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/localdir/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/IterableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_77/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2581">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyReadAndWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1885">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/SequenceFileOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ParquetOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/dataModel/ORCFileOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyw/hdfs/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hdfs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20833333" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20833333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

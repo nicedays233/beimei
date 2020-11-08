@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70224c9f-abb1-4fc0-9969-b3838a7a2503" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="8b3a3c15-5f47-4466-b007-93b19803dbcf" />
+  <component name="ProjectId" id="1h8XW3PKYxwErhaUxhHMe29uk3T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\tianchi\com\wyw" />
+      <recent name="E:\pythonProject\tianchi\com\wyw\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.xgboostPredict (1)">
+    <configuration name="DistributeData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tianchi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/industrial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/industrial/DistributeData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GridSearchFitBestModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tianchi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/industrial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/industrial/GridSearchFitBestModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NormalizeData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tianchi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/industrial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/industrial/NormalizeData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xgboostPredict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tianchi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/industrial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/industrial/xgboostPredict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xgboostPredict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tianchi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/industrial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonProject\tianchi\com\wyw\industrial\xgboostPredict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xgboostPredict (1)" />
+        <item itemvalue="Python.xgboostPredict" />
+        <item itemvalue="Python.GridSearchFitBestModel" />
+        <item itemvalue="Python.DistributeData" />
+        <item itemvalue="Python.NormalizeData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70224c9f-abb1-4fc0-9969-b3838a7a2503" name="Default Changelist" comment="" />
+      <created>1599393720959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599393720959</updated>
+      <workItem from="1599393742986" duration="24312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="20" key="#Inspections" timestamp="1599407472560">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="20" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1599407472560" />
+    <state width="1877" height="70" key="GridCell.Tab.0.bottom" timestamp="1599610812252">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1237" height="251" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599481061657" />
+    <state width="1877" height="70" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1599610812252" />
+    <state width="1237" height="-12" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1877" height="70" key="GridCell.Tab.0.center" timestamp="1599610812251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1237" height="251" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599481061657" />
+    <state width="1877" height="70" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1599610812251" />
+    <state width="1237" height="-12" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1877" height="70" key="GridCell.Tab.0.left" timestamp="1599610812251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1237" height="251" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599481061656" />
+    <state width="1877" height="70" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1599610812251" />
+    <state width="1237" height="-12" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599588451693" />
+    <state width="1877" height="70" key="GridCell.Tab.0.right" timestamp="1599610812252">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1237" height="251" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599481061657" />
+    <state width="1877" height="70" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1599610812252" />
+    <state width="1237" height="-12" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.bottom" timestamp="1599588451694">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="-12" key="GridCell.Tab.1.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599475158908" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.center" timestamp="1599588451694">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="-12" key="GridCell.Tab.1.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599475158907" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.left" timestamp="1599588451694">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="-12" key="GridCell.Tab.1.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599475158907" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.right" timestamp="1599588451694">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="-12" key="GridCell.Tab.1.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599475158907" />
+    <state width="1237" height="-12" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599588451694" />
+    <state x="-1835" y="13" width="996" height="707" key="SettingsEditor" timestamp="1599474997507">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1835" y="13" width="996" height="707" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1599474997507" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1599404133228">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1599404133228" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tianchi$DistributeData.coverage" NAME="DistributeData Coverage Results" MODIFIED="1599404783820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+    <SUITE FILE_PATH="coverage/tianchi$NormalizeData.coverage" NAME="NormalizeData Coverage Results" MODIFIED="1599397338204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+    <SUITE FILE_PATH="coverage/tianchi$xgboost.coverage" NAME="xgboost Coverage Results" MODIFIED="1599479244213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+    <SUITE FILE_PATH="coverage/tianchi$xgboostPredict__1_.coverage" NAME="xgboostPredict (1) Coverage Results" MODIFIED="1599481061644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+    <SUITE FILE_PATH="coverage/tianchi$DataPreProcessing.coverage" NAME="DataPreProcessing Coverage Results" MODIFIED="1599395434006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+    <SUITE FILE_PATH="coverage/tianchi$GridSearchFitBestModel.coverage" NAME="GridSearchFitBestModel Coverage Results" MODIFIED="1599479240852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/industrial" />
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E:\markdownNotes\ssm.html</title>
+<link type='text/css' rel='stylesheet' href='main.css'/>
+</head>
+<body>
+
+<h2>SSM--web</h2>
+
+<h2>前后端分离（JS访问后台数据-java-json）</h2>
+
+<p>json：[]表示数组，{}表示对象，：表示键值对，‘，’表示键值对分割符</p>
+
+<h3>1.依赖(1-5:spring,6-8:web,9-10:json)</h3>
+
+<ol>
+<li><strong>mysql-driver</strong></li>
+<li><strong>mybatis</strong></li>
+<li><strong>spring-context</strong></li>
+<li><strong>spring-jdbc</strong></li>
+<li><strong>mybatis-spring</strong></li>
+<li><strong>servlet</strong></li>
+<li><strong>spring-web</strong></li>
+<li><strong>spring-webmvc</strong></li>
+<li><strong>jackson-core</strong></li>
+</ol>
+<p>10. <strong>jackson-databind</strong></p>
+
+<p><img alt='img' src='file:///E:\QQData\741454344\Image\Group2\I_\1Q\I_1QW]C3QL0M69E5[W%PF_0.png' /></p>
+
+<h3>2.配置</h3>
+
+<p>项目结构：</p>
+
+<p><img alt='image-20200430140913024' src='C:%5CUsers%5Clenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200430140913024.png' /></p>
+
+<p><img alt='image-20200430141116648' src='C:%5CUsers%5Clenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200430141116648.png' /></p>
+
+
+
+
+
+<ol>
+<li>XML</li>
+</ol>
+
+
+
+<ol>
+<h4>注解</h4>
+</ol>
+
+<p>- 类注解</p>
+<p>- @Component 组件</p>
+<p>- @Repository：数据访问层：mapper(Dao)</p>
+<p>- @Service ：业务层service(biz)</p>
+<p>- @Controller：jsp控制层 control</p>
+<p>- @RestController = @Controller + @ResponseBody:  ajax-json</p>
+<p>- @ResponseBody：ajax访问</p>
+<p>- @RequestMapping</p>
+<p>- @CrossOrigin：跨域  域名</p>
+
+<p>- 属性注解</p>
+<p>- @AutoWired 自动注入：不用写get/set方法了</p>
+<p>- 方法注解            RESTFUL请求风格定义</p>
+<p>- @RequestMapping</p>
+<p>- @GetMapping</p>
+<p>- @PostMapping</p>
+<p>- @DeleteMapping</p>
+<p>- @PutMapping</p>
+<p>- @CrossOrigin</p>
+<p>- 参数注解</p>
+<p>- @PathVariable</p>
+<p>- @RequestParam</p>
+
+
+
+
+
+
+
+</body>
+</html>

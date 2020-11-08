@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1f6f2dd-51e1-4fc1-9fb0-457a2a72ba2c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="8b3a3c15-5f47-4466-b007-93b19803dbcf" />
+  <component name="ProjectId" id="1gilhh2owsse4inppk3Co995SL7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\friendsAnalysis\com\wyw\etl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.SpeedDateData">
+    <configuration name="LoadData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="friendsAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/etl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/etl/LoadData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpeedDateData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="friendsAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw/etl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/etl/SpeedDateData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SpeedDateData" />
+        <item itemvalue="Python.LoadData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1f6f2dd-51e1-4fc1-9fb0-457a2a72ba2c" name="Default Changelist" comment="" />
+      <created>1598605414398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598605414398</updated>
+      <workItem from="1598605429860" duration="4630000" />
+      <workItem from="1598801746866" duration="635000" />
+      <workItem from="1598835362381" duration="25115000" />
+      <workItem from="1599322557510" duration="24000" />
+      <workItem from="1599376781863" duration="4904000" />
+      <workItem from="1599474842765" duration="2197000" />
+      <workItem from="1599643714881" duration="1004000" />
+      <workItem from="1600085583092" duration="862000" />
+      <workItem from="1600314794239" duration="768000" />
+      <workItem from="1600610304711" duration="724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1600089024195">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1600089024195" />
+    <state width="1237" height="346" key="GridCell.Tab.0.bottom" timestamp="1598876384262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="346" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1598876384262" />
+    <state width="1237" height="346" key="GridCell.Tab.0.center" timestamp="1598876384262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="346" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1598876384262" />
+    <state width="1237" height="346" key="GridCell.Tab.0.left" timestamp="1598876384262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="346" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1598876384262" />
+    <state width="1237" height="346" key="GridCell.Tab.0.right" timestamp="1598876384262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="346" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1598876384262" />
+    <state x="141" y="6" key="SettingsEditor" timestamp="1600089018201">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1873" y="6" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1600085861100" />
+    <state x="141" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600089018201" />
+    <state x="303" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1600610349190">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1617" y="185" key="com.intellij.ide.util.TipDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1600085593245" />
+    <state x="303" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1600610349190" />
+    <state x="645" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1598859086517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="645" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1598859086517" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/friendsAnalysis$LoadData.coverage" NAME="LoadData Coverage Results" MODIFIED="1598866079664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/etl" />
+    <SUITE FILE_PATH="coverage/friendsAnalysis$SpeedDateData.coverage" NAME="SpeedDateData Coverage Results" MODIFIED="1598876384256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw/etl" />
+  </component>
+</project>

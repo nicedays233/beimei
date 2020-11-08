@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83b0d598-bbbd-473f-a597-d718e6c57f27" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="8b3a3c15-5f47-4466-b007-93b19803dbcf">
+    <option name="files">
+      <option value="spark.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1g202XlcHx3DKIC09dSyf8Wp42X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/wyw" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\spark" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\spark\com\wyw" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.csdn1">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csdn1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/csdn1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/matplotlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matplotlib2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/matplotlib2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandasIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/pandasIO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py2spark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/wyw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/wyw/py2spark.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.csdn1" />
+        <item itemvalue="Python.py2spark" />
+        <item itemvalue="Python.pandasIO" />
+        <item itemvalue="Python.matplotlib2" />
+        <item itemvalue="Python.matplotlib" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83b0d598-bbbd-473f-a597-d718e6c57f27" name="Default Changelist" comment="" />
+      <created>1597297172489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597297172489</updated>
+      <workItem from="1597297192641" duration="12551000" />
+      <workItem from="1597395958197" duration="1975000" />
+      <workItem from="1597639005149" duration="17726000" />
+      <workItem from="1597742846368" duration="375000" />
+      <workItem from="1597743254915" duration="31735000" />
+      <workItem from="1597988517236" duration="683000" />
+      <workItem from="1597989392967" duration="4054000" />
+      <workItem from="1598112687591" duration="25035000" />
+      <workItem from="1598463034860" duration="814000" />
+      <workItem from="1598577480898" duration="9559000" />
+      <workItem from="1598801747119" duration="1077000" />
+      <workItem from="1598835709948" duration="10950000" />
+      <workItem from="1599322614234" duration="1425000" />
+      <workItem from="1599376693367" duration="1912000" />
+      <workItem from="1601223212795" duration="3473000" />
+      <workItem from="1604206660811" duration="2730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="20" key="#Inspections" timestamp="1598836886221">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1687" y="20" key="#Inspections/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597829149689" />
+    <state x="233" y="20" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1598836886221" />
+    <state x="-1687" y="20" key="#SQL_Dialects" timestamp="1597910457417">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1687" y="20" key="#SQL_Dialects/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910457417" />
+    <state x="-1687" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597910838350">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1687" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910838350" />
+    <state x="366" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597297588002">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="366" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1597297588002" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1604208984765">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1604208984765" />
+    <state width="1237" height="119" key="GridCell.Tab.0.bottom" timestamp="1597910737595">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="119" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910737595" />
+    <state width="914" height="267" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1597640388420" />
+    <state width="1237" height="33" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1597852618812" />
+    <state width="1237" height="119" key="GridCell.Tab.0.center" timestamp="1597910737595">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="119" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910737595" />
+    <state width="914" height="267" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1597640388420" />
+    <state width="1237" height="33" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1597852618809" />
+    <state width="1237" height="119" key="GridCell.Tab.0.left" timestamp="1597910737595">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="119" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910737595" />
+    <state width="914" height="267" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1597640388420" />
+    <state width="1237" height="33" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1597852618803" />
+    <state width="1237" height="119" key="GridCell.Tab.0.right" timestamp="1597910737595">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="119" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597910737595" />
+    <state width="914" height="267" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1597640388420" />
+    <state width="1237" height="33" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1597852618809" />
+    <state width="1237" height="312" key="GridCell.Tab.1.bottom" timestamp="1597376430562">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="312" key="GridCell.Tab.1.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597376430562" />
+    <state width="1237" height="312" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1597306532221" />
+    <state width="1237" height="312" key="GridCell.Tab.1.center" timestamp="1597376430562">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="312" key="GridCell.Tab.1.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597376430562" />
+    <state width="1237" height="312" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1597306532221" />
+    <state width="1237" height="312" key="GridCell.Tab.1.left" timestamp="1597376430562">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="312" key="GridCell.Tab.1.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597376430562" />
+    <state width="1237" height="312" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1597306532221" />
+    <state width="1237" height="312" key="GridCell.Tab.1.right" timestamp="1597376430562">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="312" key="GridCell.Tab.1.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597376430562" />
+    <state width="1237" height="312" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1597306532221" />
+    <state x="-1975" y="13" width="996" height="707" key="SettingsEditor" timestamp="1598347944485">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1975" y="13" width="996" height="707" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1598347944485" />
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1597297750241" />
+    <state x="22" y="110" key="com.intellij.ide.util.TipDialog" timestamp="1598112688296">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1898" y="110" key="com.intellij.ide.util.TipDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597988550848" />
+    <state x="22" y="110" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1598112688296" />
+    <state x="-1617" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1597657402936">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1617" y="41" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1597657402936" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/wyw/py2spark.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spark$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1597734257599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+    <SUITE FILE_PATH="coverage/spark$csdn.coverage" NAME="csdn Coverage Results" MODIFIED="1597852618686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+    <SUITE FILE_PATH="coverage/spark$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1597731762949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+    <SUITE FILE_PATH="coverage/spark$numpy1__1_.coverage" NAME="numpy1 (1) Coverage Results" MODIFIED="1597819511664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+    <SUITE FILE_PATH="coverage/spark$spark.coverage" NAME="spark Coverage Results" MODIFIED="1597297661437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spark$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1597723194622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+    <SUITE FILE_PATH="coverage/spark$zhengze.coverage" NAME="zhengze Coverage Results" MODIFIED="1597738323971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/wyw" />
+  </component>
+</project>

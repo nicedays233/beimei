@@ -1,0 +1,365 @@
+```scala
+package org.apache.spark.sql
+@org.apache.spark.annotation.InterfaceStability.Stable
+object functions extends scala.AnyRef {
+  def col(colName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def column(colName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lit(literal : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def typedLit[T](literal : T)(implicit evidence$1 : scala.reflect.runtime.universe.TypeTag[T]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def asc(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def asc_nulls_first(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def asc_nulls_last(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def desc(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def desc_nulls_first(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def desc_nulls_last(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use approx_count_distinct", "2.1.0")
+  def approxCountDistinct(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use approx_count_distinct", "2.1.0")
+  def approxCountDistinct(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use approx_count_distinct", "2.1.0")
+  def approxCountDistinct(e : org.apache.spark.sql.Column, rsd : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use approx_count_distinct", "2.1.0")
+  def approxCountDistinct(columnName : scala.Predef.String, rsd : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def approx_count_distinct(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def approx_count_distinct(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def approx_count_distinct(e : org.apache.spark.sql.Column, rsd : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def approx_count_distinct(columnName : scala.Predef.String, rsd : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def avg(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def avg(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def collect_list(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def collect_list(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def collect_set(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def collect_set(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def corr(column1 : org.apache.spark.sql.Column, column2 : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def corr(columnName1 : scala.Predef.String, columnName2 : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def count(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def count(columnName : scala.Predef.String) : org.apache.spark.sql.TypedColumn[scala.Any, scala.Long] = { /* compiled code */ }
+  @scala.annotation.varargs
+  def countDistinct(expr : org.apache.spark.sql.Column, exprs : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def countDistinct(columnName : scala.Predef.String, columnNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def covar_pop(column1 : org.apache.spark.sql.Column, column2 : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def covar_pop(columnName1 : scala.Predef.String, columnName2 : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def covar_samp(column1 : org.apache.spark.sql.Column, column2 : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def covar_samp(columnName1 : scala.Predef.String, columnName2 : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def first(e : org.apache.spark.sql.Column, ignoreNulls : scala.Boolean) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def first(columnName : scala.Predef.String, ignoreNulls : scala.Boolean) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def first(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def first(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def grouping(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def grouping(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def grouping_id(cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def grouping_id(colName : scala.Predef.String, colNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def kurtosis(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def kurtosis(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def last(e : org.apache.spark.sql.Column, ignoreNulls : scala.Boolean) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def last(columnName : scala.Predef.String, ignoreNulls : scala.Boolean) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def last(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def last(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def max(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def max(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def mean(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def mean(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def min(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def min(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def skewness(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def skewness(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev_samp(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev_samp(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev_pop(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def stddev_pop(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sum(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sum(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sumDistinct(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sumDistinct(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def variance(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def variance(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def var_samp(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def var_samp(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def var_pop(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def var_pop(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unboundedPreceding() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unboundedFollowing() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def currentRow() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cume_dist() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def dense_rank() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lag(e : org.apache.spark.sql.Column, offset : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lag(columnName : scala.Predef.String, offset : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lag(columnName : scala.Predef.String, offset : scala.Int, defaultValue : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lag(e : org.apache.spark.sql.Column, offset : scala.Int, defaultValue : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lead(columnName : scala.Predef.String, offset : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lead(e : org.apache.spark.sql.Column, offset : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lead(columnName : scala.Predef.String, offset : scala.Int, defaultValue : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lead(e : org.apache.spark.sql.Column, offset : scala.Int, defaultValue : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ntile(n : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def percent_rank() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rank() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def row_number() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def abs(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def array(cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def array(colName : scala.Predef.String, colNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def map(cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def broadcast[T](df : org.apache.spark.sql.Dataset[T]) : org.apache.spark.sql.Dataset[T] = { /* compiled code */ }
+  @scala.annotation.varargs
+  def coalesce(e : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def input_file_name() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def isnan(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def isnull(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use monotonically_increasing_id()", "2.0.0")
+  def monotonicallyIncreasingId() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def monotonically_increasing_id() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def nanvl(col1 : org.apache.spark.sql.Column, col2 : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def negate(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def not(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rand(seed : scala.Long) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rand() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def randn(seed : scala.Long) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def randn() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def spark_partition_id() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sqrt(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sqrt(colName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def struct(cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def struct(colName : scala.Predef.String, colNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def when(condition : org.apache.spark.sql.Column, value : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def bitwiseNOT(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def expr(expr : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def acos(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def acos(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def asin(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def asin(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(y : org.apache.spark.sql.Column, x : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(y : org.apache.spark.sql.Column, xName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(yName : scala.Predef.String, x : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(yName : scala.Predef.String, xName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(y : org.apache.spark.sql.Column, xValue : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(yName : scala.Predef.String, xValue : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(yValue : scala.Double, x : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def atan2(yValue : scala.Double, xName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def bin(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def bin(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cbrt(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cbrt(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ceil(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ceil(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def conv(num : org.apache.spark.sql.Column, fromBase : scala.Int, toBase : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cos(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cos(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cosh(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def cosh(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def exp(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def exp(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def expm1(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def expm1(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def factorial(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def floor(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def floor(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def greatest(exprs : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def greatest(columnName : scala.Predef.String, columnNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hex(column : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unhex(column : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(l : org.apache.spark.sql.Column, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(l : org.apache.spark.sql.Column, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(leftName : scala.Predef.String, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(leftName : scala.Predef.String, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(l : org.apache.spark.sql.Column, r : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(leftName : scala.Predef.String, r : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(l : scala.Double, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hypot(l : scala.Double, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def least(exprs : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def least(columnName : scala.Predef.String, columnNames : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log(base : scala.Double, a : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log(base : scala.Double, columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log10(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log10(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log1p(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log1p(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log2(expr : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def log2(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(l : org.apache.spark.sql.Column, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(l : org.apache.spark.sql.Column, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(leftName : scala.Predef.String, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(leftName : scala.Predef.String, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(l : org.apache.spark.sql.Column, r : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(leftName : scala.Predef.String, r : scala.Double) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(l : scala.Double, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pow(l : scala.Double, rightName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def pmod(dividend : org.apache.spark.sql.Column, divisor : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rint(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rint(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def round(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def round(e : org.apache.spark.sql.Column, scale : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def bround(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def bround(e : org.apache.spark.sql.Column, scale : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def shiftLeft(e : org.apache.spark.sql.Column, numBits : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def shiftRight(e : org.apache.spark.sql.Column, numBits : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def shiftRightUnsigned(e : org.apache.spark.sql.Column, numBits : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def signum(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def signum(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sin(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sin(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sinh(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sinh(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def tan(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def tan(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def tanh(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def tanh(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use degrees", "2.1.0")
+  def toDegrees(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use degrees", "2.1.0")
+  def toDegrees(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def degrees(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def degrees(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use radians", "2.1.0")
+  def toRadians(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.deprecated("Use radians", "2.1.0")
+  def toRadians(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def radians(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def radians(columnName : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def md5(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sha1(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sha2(e : org.apache.spark.sql.Column, numBits : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def crc32(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def hash(cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ascii(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def base64(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def concat(exprs : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def concat_ws(sep : scala.Predef.String, exprs : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def decode(value : org.apache.spark.sql.Column, charset : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def encode(value : org.apache.spark.sql.Column, charset : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def format_number(x : org.apache.spark.sql.Column, d : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def format_string(format : scala.Predef.String, arguments : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def initcap(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def instr(str : org.apache.spark.sql.Column, substring : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def length(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lower(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def levenshtein(l : org.apache.spark.sql.Column, r : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def locate(substr : scala.Predef.String, str : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def locate(substr : scala.Predef.String, str : org.apache.spark.sql.Column, pos : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def lpad(str : org.apache.spark.sql.Column, len : scala.Int, pad : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ltrim(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def ltrim(e : org.apache.spark.sql.Column, trimString : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def regexp_extract(e : org.apache.spark.sql.Column, exp : scala.Predef.String, groupIdx : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def regexp_replace(e : org.apache.spark.sql.Column, pattern : scala.Predef.String, replacement : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def regexp_replace(e : org.apache.spark.sql.Column, pattern : org.apache.spark.sql.Column, replacement : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unbase64(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rpad(str : org.apache.spark.sql.Column, len : scala.Int, pad : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def repeat(str : org.apache.spark.sql.Column, n : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def reverse(str : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rtrim(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def rtrim(e : org.apache.spark.sql.Column, trimString : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def soundex(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def split(str : org.apache.spark.sql.Column, pattern : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def substring(str : org.apache.spark.sql.Column, pos : scala.Int, len : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def substring_index(str : org.apache.spark.sql.Column, delim : scala.Predef.String, count : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def translate(src : org.apache.spark.sql.Column, matchingString : scala.Predef.String, replaceString : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def trim(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def trim(e : org.apache.spark.sql.Column, trimString : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def upper(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def add_months(startDate : org.apache.spark.sql.Column, numMonths : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def current_date() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def current_timestamp() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def date_format(dateExpr : org.apache.spark.sql.Column, format : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def date_add(start : org.apache.spark.sql.Column, days : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def date_sub(start : org.apache.spark.sql.Column, days : scala.Int) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def datediff(end : org.apache.spark.sql.Column, start : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def year(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def quarter(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def month(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def dayofweek(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def dayofmonth(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def dayofyear(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def hour(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def last_day(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def minute(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def months_between(date1 : org.apache.spark.sql.Column, date2 : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def next_day(date : org.apache.spark.sql.Column, dayOfWeek : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def second(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def weekofyear(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_unixtime(ut : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_unixtime(ut : org.apache.spark.sql.Column, f : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unix_timestamp() : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unix_timestamp(s : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def unix_timestamp(s : org.apache.spark.sql.Column, p : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_timestamp(s : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_timestamp(s : org.apache.spark.sql.Column, fmt : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_date(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_date(e : org.apache.spark.sql.Column, fmt : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def trunc(date : org.apache.spark.sql.Column, format : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def date_trunc(format : scala.Predef.String, timestamp : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_utc_timestamp(ts : org.apache.spark.sql.Column, tz : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_utc_timestamp(ts : org.apache.spark.sql.Column, tz : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def window(timeColumn : org.apache.spark.sql.Column, windowDuration : scala.Predef.String, slideDuration : scala.Predef.String, startTime : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def window(timeColumn : org.apache.spark.sql.Column, windowDuration : scala.Predef.String, slideDuration : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def window(timeColumn : org.apache.spark.sql.Column, windowDuration : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def array_contains(column : org.apache.spark.sql.Column, value : scala.Any) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def explode(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def explode_outer(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def posexplode(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def posexplode_outer(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def get_json_object(e : org.apache.spark.sql.Column, path : scala.Predef.String) : org.apache.spark.sql.Column = { /* compiled code */ }
+  @scala.annotation.varargs
+  def json_tuple(json : org.apache.spark.sql.Column, fields : scala.Predef.String*) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.StructType, options : scala.Predef.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.DataType, options : scala.Predef.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.StructType, options : java.util.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.DataType, options : java.util.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.StructType) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : scala.Predef.String, options : java.util.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def from_json(e : org.apache.spark.sql.Column, schema : scala.Predef.String, options : scala.Predef.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_json(e : org.apache.spark.sql.Column, options : scala.Predef.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_json(e : org.apache.spark.sql.Column, options : java.util.Map[scala.Predef.String, scala.Predef.String]) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def to_json(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def size(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sort_array(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def sort_array(e : org.apache.spark.sql.Column, asc : scala.Boolean) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def map_keys(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def map_values(e : org.apache.spark.sql.Column) : org.apache.spark.sql.Column = { /* compiled code */ }
+  def udf[RT](f : scala.Function0[RT])(implicit evidence$2 : scala.reflect.runtime.universe.TypeTag[RT]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1](f : scala.Function1[A1, RT])(implicit evidence$3 : scala.reflect.runtime.universe.TypeTag[RT], evidence$4 : scala.reflect.runtime.universe.TypeTag[A1]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2](f : scala.Function2[A1, A2, RT])(implicit evidence$5 : scala.reflect.runtime.universe.TypeTag[RT], evidence$6 : scala.reflect.runtime.universe.TypeTag[A1], evidence$7 : scala.reflect.runtime.universe.TypeTag[A2]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3](f : scala.Function3[A1, A2, A3, RT])(implicit evidence$8 : scala.reflect.runtime.universe.TypeTag[RT], evidence$9 : scala.reflect.runtime.universe.TypeTag[A1], evidence$10 : scala.reflect.runtime.universe.TypeTag[A2], evidence$11 : scala.reflect.runtime.universe.TypeTag[A3]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4](f : scala.Function4[A1, A2, A3, A4, RT])(implicit evidence$12 : scala.reflect.runtime.universe.TypeTag[RT], evidence$13 : scala.reflect.runtime.universe.TypeTag[A1], evidence$14 : scala.reflect.runtime.universe.TypeTag[A2], evidence$15 : scala.reflect.runtime.universe.TypeTag[A3], evidence$16 : scala.reflect.runtime.universe.TypeTag[A4]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5](f : scala.Function5[A1, A2, A3, A4, A5, RT])(implicit evidence$17 : scala.reflect.runtime.universe.TypeTag[RT], evidence$18 : scala.reflect.runtime.universe.TypeTag[A1], evidence$19 : scala.reflect.runtime.universe.TypeTag[A2], evidence$20 : scala.reflect.runtime.universe.TypeTag[A3], evidence$21 : scala.reflect.runtime.universe.TypeTag[A4], evidence$22 : scala.reflect.runtime.universe.TypeTag[A5]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5, A6](f : scala.Function6[A1, A2, A3, A4, A5, A6, RT])(implicit evidence$23 : scala.reflect.runtime.universe.TypeTag[RT], evidence$24 : scala.reflect.runtime.universe.TypeTag[A1], evidence$25 : scala.reflect.runtime.universe.TypeTag[A2], evidence$26 : scala.reflect.runtime.universe.TypeTag[A3], evidence$27 : scala.reflect.runtime.universe.TypeTag[A4], evidence$28 : scala.reflect.runtime.universe.TypeTag[A5], evidence$29 : scala.reflect.runtime.universe.TypeTag[A6]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5, A6, A7](f : scala.Function7[A1, A2, A3, A4, A5, A6, A7, RT])(implicit evidence$30 : scala.reflect.runtime.universe.TypeTag[RT], evidence$31 : scala.reflect.runtime.universe.TypeTag[A1], evidence$32 : scala.reflect.runtime.universe.TypeTag[A2], evidence$33 : scala.reflect.runtime.universe.TypeTag[A3], evidence$34 : scala.reflect.runtime.universe.TypeTag[A4], evidence$35 : scala.reflect.runtime.universe.TypeTag[A5], evidence$36 : scala.reflect.runtime.universe.TypeTag[A6], evidence$37 : scala.reflect.runtime.universe.TypeTag[A7]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5, A6, A7, A8](f : scala.Function8[A1, A2, A3, A4, A5, A6, A7, A8, RT])(implicit evidence$38 : scala.reflect.runtime.universe.TypeTag[RT], evidence$39 : scala.reflect.runtime.universe.TypeTag[A1], evidence$40 : scala.reflect.runtime.universe.TypeTag[A2], evidence$41 : scala.reflect.runtime.universe.TypeTag[A3], evidence$42 : scala.reflect.runtime.universe.TypeTag[A4], evidence$43 : scala.reflect.runtime.universe.TypeTag[A5], evidence$44 : scala.reflect.runtime.universe.TypeTag[A6], evidence$45 : scala.reflect.runtime.universe.TypeTag[A7], evidence$46 : scala.reflect.runtime.universe.TypeTag[A8]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5, A6, A7, A8, A9](f : scala.Function9[A1, A2, A3, A4, A5, A6, A7, A8, A9, RT])(implicit evidence$47 : scala.reflect.runtime.universe.TypeTag[RT], evidence$48 : scala.reflect.runtime.universe.TypeTag[A1], evidence$49 : scala.reflect.runtime.universe.TypeTag[A2], evidence$50 : scala.reflect.runtime.universe.TypeTag[A3], evidence$51 : scala.reflect.runtime.universe.TypeTag[A4], evidence$52 : scala.reflect.runtime.universe.TypeTag[A5], evidence$53 : scala.reflect.runtime.universe.TypeTag[A6], evidence$54 : scala.reflect.runtime.universe.TypeTag[A7], evidence$55 : scala.reflect.runtime.universe.TypeTag[A8], evidence$56 : scala.reflect.runtime.universe.TypeTag[A9]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf[RT, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10](f : scala.Function10[A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, RT])(implicit evidence$57 : scala.reflect.runtime.universe.TypeTag[RT], evidence$58 : scala.reflect.runtime.universe.TypeTag[A1], evidence$59 : scala.reflect.runtime.universe.TypeTag[A2], evidence$60 : scala.reflect.runtime.universe.TypeTag[A3], evidence$61 : scala.reflect.runtime.universe.TypeTag[A4], evidence$62 : scala.reflect.runtime.universe.TypeTag[A5], evidence$63 : scala.reflect.runtime.universe.TypeTag[A6], evidence$64 : scala.reflect.runtime.universe.TypeTag[A7], evidence$65 : scala.reflect.runtime.universe.TypeTag[A8], evidence$66 : scala.reflect.runtime.universe.TypeTag[A9], evidence$67 : scala.reflect.runtime.universe.TypeTag[A10]) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF0[_], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF1[_, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF2[_, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF3[_, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF4[_, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF5[_, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF6[_, _, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF7[_, _, _, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF8[_, _, _, _, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF9[_, _, _, _, _, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : org.apache.spark.sql.api.java.UDF10[_, _, _, _, _, _, _, _, _, _, _], returnType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  def udf(f : scala.AnyRef, dataType : org.apache.spark.sql.types.DataType) : org.apache.spark.sql.expressions.UserDefinedFunction = { /* compiled code */ }
+  @scala.annotation.varargs
+  def callUDF(udfName : scala.Predef.String, cols : org.apache.spark.sql.Column*) : org.apache.spark.sql.Column = { /* compiled code */ }
+}
+
+```
+
